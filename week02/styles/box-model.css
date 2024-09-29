@@ -8,7 +8,8 @@
 }
 
 .callout img {
-    position: float;
+    float: right;
+    position: left;
     margin: 10px;
     border: 2px solid #fff;
     padding: 10px;
@@ -23,7 +24,7 @@ blockquote {
 
 cite {
     display: inline;
-    border-top: #fff;
+    border-top: 1px dotted #fff;
     padding-top: 10px;
     text-align: center;
     font-size: 16px;
