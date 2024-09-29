@@ -1,9 +1,9 @@
 .callout {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0px;
     border: 1 px solid #fff;
     padding:10px;
-    background-color:blue;
+    background-color:rgba(31, 31, 194, 0.771);
     color:white;
 }
 
@@ -12,10 +12,10 @@
     position: left;
     margin: 10px;
     border: 2px solid #fff;
-    padding: 10px;
+    padding: 1px;
 	background-color: #fff;
-    width:100px;
-    height:200px;
+    width: 150px;
+    height:100%;
     }
 
 blockquote {
