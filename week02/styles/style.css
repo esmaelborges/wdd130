@@ -11,3 +11,16 @@ margin: var(--padding-margin-zero);
 box-sizing: border-box;
 text-align: var(--aligment-for-text);
 }
+
+header{
+    display: block;
+    align-items: center;
+}
+
+nav{
+    display: inline;
+}
+
+.grid-section{
+    display: flex;
+}
