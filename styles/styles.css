@@ -32,7 +32,8 @@ nav {
     border: 1px solid var(--primary-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    float: right; /* Sent my image to right side of page */
+    
   }
 
   p {
