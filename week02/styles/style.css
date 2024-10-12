@@ -1,0 +1,11 @@
+root{
+    --padding-margin-zero:0;
+
+}
+
+
+*{
+padding: var(--padding-margin-zero);
+margin: var(--padding-margin-zero);
+
+}
