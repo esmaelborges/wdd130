@@ -45,6 +45,7 @@ nav {
   }
 
   aside {
+    position: relative;
     width: 20rem;
     text-align: var(--text-alignment);
   }
@@ -76,4 +77,9 @@ nav {
     background-color: var(--box-background);
     color: var(--font-color);
 
+  }
+  /* making a absolute position for my country name and place */
+  h2{
+    position: absolute;
+    
   }
