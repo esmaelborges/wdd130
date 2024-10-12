@@ -71,6 +71,7 @@ nav {
 
   /* Class Selectors */
   .box {
+
     margin: var(--font-size-main-size);
     padding: var(--font-size-main-size);
     border: 1px solid var(--second-color);
@@ -79,7 +80,10 @@ nav {
 
   }
   /* making a absolute position for my country name and place */
-  h2{
+  aside h2 {
     position: absolute;
-    
+    top: 47px;
+    left: 150px;
+
+
   }
