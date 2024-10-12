@@ -1,18 +1,10 @@
 @font-face {
     font-family: 'rock_saltregular';
-    src: url('RockSalt-webfont.eot');
-    src: url('RockSalt-webfont.eot?#iefix') format('embedded-opentype'),
-         url('RockSalt-webfont.woff2') format('woff2'),
-         url('RockSalt-webfont.woff') format('woff'),
-         url('RockSalt-webfont.ttf') format('truetype'),
-         url('RockSalt-webfont.svg#rock_saltregular') format('svg');
+        src : url('../fonts/RockSalt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap'); */
 
 body {
     font-family: Roboto, Helvetica, sans-serif;
@@ -20,16 +12,3 @@ body {
 h1 {
     font-family: 'rock_saltregular', 'Bradley Hand', cursive;
 }
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap'); */
-
-/* body { 
-    font-family: "Afacad Flux", sans-serif;
-    font-size: 25px;
-}
-
-h1 {
-    font-family: "Edu VIC WA NT Beginner", cursive;
-    font-size: 70px;
-} */
