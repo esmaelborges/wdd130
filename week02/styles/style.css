@@ -22,5 +22,5 @@ nav{
 }
 
 .grid-section{
-    display: flex;
+    display: grid;
 }
