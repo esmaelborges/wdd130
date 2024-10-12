@@ -55,6 +55,13 @@ nav {
     height: auto;
   }
 
+  /* making a absolute position for my country name and place */
+  aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+  }
+
   p { padding: var(--padding-margin-zero);}
 
   footer {
@@ -79,9 +86,4 @@ nav {
     color: var(--font-color);
 
   }
-  /* making a absolute position for my country name and place */
-  aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-  }
+  
