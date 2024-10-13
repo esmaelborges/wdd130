@@ -60,12 +60,13 @@ article {
     height: auto;
     width: auto;
     color: var(--secundary-accent);
+    padding: 20px;
 
 }
 
  #square {
     height: auto;
-    width: 200px;
+    width: 280px;
     float: right;
 }
 
