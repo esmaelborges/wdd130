@@ -6,7 +6,7 @@
     --heading-fonts:"Loved by the King", cursive;
     --text-fonts: Montserrat, sans-serif;
 }
-
+/* 
 h1{
     font-family: var(--heading-fonts);
     color: var(--primary-color);
@@ -16,6 +16,7 @@ body {
     color: var(--secundary-accent);
 }
 /* Removing the defaut decoration from a image link */
+/*
 .social-footer a {
     text-decoration: none;
 }
@@ -49,3 +50,4 @@ article img {
     
 }
 
+ */
