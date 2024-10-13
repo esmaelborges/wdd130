@@ -14,15 +14,20 @@
 
 }
 
-/* .hero { 
+ div .hero { 
     position: relative;
-}*/
-
-.hero h1 {
-    position: absolute;
 }
-.hero article {
+
+  h1 {
     position: absolute;
+    top: 200px;
+    margin-left: 200px;
+}
+
+article {
+    position: absolute;
+    top: 300px;
+    margin-left: 200px;
 }
 
 /* 
