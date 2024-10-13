@@ -6,6 +6,14 @@
     --heading-fonts:"Loved by the King", cursive;
     --text-fonts: Montserrat, sans-serif;
 }
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
 /* 
 h1{
     font-family: var(--heading-fonts);
