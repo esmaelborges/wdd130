@@ -14,6 +14,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    font-family: var(--heading-fonts);
+}
+
+body {
+    font-family: var(--text-fonts);
+}
+
 .hero{
     height:800px;
     background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting34_1024.jpg');
