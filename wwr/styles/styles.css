@@ -7,8 +7,8 @@
     --secundary-accent:#0D1B2A;
     --heading-fonts:"Loved by the King", cursive;
     --text-fonts: Montserrat, sans-serif;
-
 }
+
 *{
     border: 0.1px solid var(--primary-color);
 }
