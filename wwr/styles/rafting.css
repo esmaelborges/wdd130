@@ -35,7 +35,7 @@ article {
     margin: 200px;
     background-color: var(--primary-accent);
     height: auto;
-    width: 100%;
+    width: auto;
     color: var(--secundary-accent);
 
 }
