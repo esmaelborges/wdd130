@@ -30,7 +30,7 @@ article {
     top: 300px;
     margin: auto;
     background-color: var(--primary-accent);
-    height: 300px;
+    height: auto;
     width: 800px;
     color: var(--secundary-accent);
 
