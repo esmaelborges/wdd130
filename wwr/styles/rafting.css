@@ -17,6 +17,9 @@
  div .hero { 
     position: relative;
     text-align: center;
+    margin: auto;
+    height: 100vh;
+
 }
 
   h1 {
