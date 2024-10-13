@@ -26,15 +26,16 @@
     position: absolute;
     top: 200px;
     margin: auto;
+    text-align: center;
 }
 
 article {
     position: absolute;
     top: 300px;
-    margin: auto;
+    margin: 200px;
     background-color: var(--primary-accent);
     height: auto;
-    width: 800px;
+    width: 100%;
     color: var(--secundary-accent);
 
 }
