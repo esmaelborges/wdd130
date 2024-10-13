@@ -38,12 +38,13 @@ body {
 
   h1 {
     position: absolute;
-    top: 200px;
+    top: 300px;
     margin: auto;
     text-align: center;
     width: 100%;
     font-family: var(--heading-fonts);
     font-size: var(--font-sizes-primary);
+    background-color: var(--primary-accent);
 }
 
 article {
