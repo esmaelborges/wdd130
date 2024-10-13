@@ -1,0 +1,34 @@
+:root {
+    --primary-color:#0150B9;
+    --secundary-color:#2574FC;
+    --primary-accent:#26F0F1;
+    --secundary-accent:#0D1B2A;
+    --heading-fonts:"Loved by the King", cursive;
+    --text-fonts: Montserrat, sans-serif;
+}
+
+h1{
+    font-family: var(--heading-fonts);
+    color: var(--primary-color);
+}
+body {
+    font-family: var(--text-fonts);
+    color: var(--secundary-accent);
+}
+/* Removing the defaut decoration from a image link */
+.social-footer a {
+    text-decoration: none;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero img {
+    display: block;
+    height: auto;
+    width: 100%;
+} 
+
