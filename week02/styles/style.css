@@ -21,6 +21,10 @@ nav{
     display: inline;
 }
 
+main {
+    padding: 50px;
+}
+
 .grid-section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -28,9 +32,9 @@ nav{
 }
 
 .temple-grid{
-    background-color: #d0d0d0;
+    background-color: hsl(0, 0%, 91%);
     text-align: var(--aligment-for-text);
-    border: 1px solid #000;
+    border: 1px solid hsl(0, 0%, 74%);
 }
 
 footer {
