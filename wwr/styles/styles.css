@@ -10,11 +10,12 @@
 }
 
 *{
-    border: 0.1px solid var(--primary-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .hero{
     width:auto;
-    height:400px;
     background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting54_1024.jpg');
     background-repeat: no-repeat;
 }
