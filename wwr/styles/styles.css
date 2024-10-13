@@ -15,7 +15,6 @@
     box-sizing: border-box;
 }
 .hero{
-    width:auto;
     background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting54_1024.jpg');
     background-repeat: no-repeat;
     background-size: cover;
