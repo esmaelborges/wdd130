@@ -9,3 +9,6 @@
     --text-fonts: Montserrat, sans-serif;
 
 }
+*{
+    border: 0.1px solid var(--primary-color);
+}
