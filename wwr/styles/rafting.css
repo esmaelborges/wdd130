@@ -27,7 +27,11 @@
 article {
     position: absolute;
     top: 300px;
-    margin-left: 200px;
+    margin: 0 auto;
+    background-color: var(--secundary-accent);
+    height: 300px;
+    width: 800px;
+
 }
 
 /* 
