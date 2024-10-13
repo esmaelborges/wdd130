@@ -11,7 +11,9 @@
     display: block;
     width: 100%;
     height: auto;
-
+}
+body {
+    font-family: var(--text-fonts);
 }
 
  div .hero { 
@@ -28,6 +30,7 @@
     margin: auto;
     text-align: center;
     width: 100%;
+    font-family: var(--heading-fonts);
 }
 
 article {
