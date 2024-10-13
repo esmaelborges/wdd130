@@ -5,6 +5,16 @@
     --secundary-accent:#0D1B2A;
     --heading-fonts:"Loved by the King", cursive;
     --text-fonts: Montserrat, sans-serif;
+    --font-sizes-primary: 80px;
+    --font-sizes-secundary: 50px;
+    --font-sizes-accent: 30px;
+    --font-sizes-body-text: 20px;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .hero img {
@@ -15,6 +25,7 @@
 body {
     font-family: var(--text-fonts);
     color: var(--primary-color);
+    font-size: var(--font-sizes-body-text);
 }
 
  div .hero { 
@@ -32,6 +43,7 @@ body {
     text-align: center;
     width: 100%;
     font-family: var(--heading-fonts);
+    font-size: var(--font-sizes-primary);
 }
 
 article {
@@ -66,11 +78,7 @@ body {
     text-decoration: none;
 }
 
-*{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .hero img {
     display: block;
