@@ -16,6 +16,7 @@
 
  div .hero { 
     position: relative;
+    text-align: center;
 }
 
   h1 {
