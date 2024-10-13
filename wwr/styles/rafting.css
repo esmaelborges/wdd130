@@ -24,7 +24,7 @@
 }
 body {
     font-family: var(--text-fonts);
-    color: var(--primary-color);
+    color: var(--secundary-accent);
     font-size: var(--font-sizes-body-text);
 }
 
@@ -44,7 +44,10 @@ body {
     width: 100%;
     font-family: var(--heading-fonts);
     font-size: var(--font-sizes-primary);
-    background-color: var(--primary-accent);
+    color: var(--primary-accent);
+}
+h2 {
+    font-size: var(--font-sizes-secundary);
 }
 
 article {
