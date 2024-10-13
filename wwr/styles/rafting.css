@@ -31,7 +31,11 @@ article {
     background-color: var(--secundary-accent);
     height: 300px;
     width: 800px;
+}
 
+.hero img #square {
+    height: auto;
+    width: 150px;
 }
 
 /* 
