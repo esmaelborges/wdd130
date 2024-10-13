@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color:#0150B9;
+    --secundary-color:#2574FC;
+    --primary-accent:#26F0F1;
+    --secundary-accent:#0D1B2A;
+    --heading-fonts:"Loved by the King", cursive;
+    --text-fonts: Montserrat, sans-serif;
+
+}
