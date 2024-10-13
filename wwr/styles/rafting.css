@@ -60,8 +60,10 @@ article {
     height: auto;
     width: auto;
     color: var(--secundary-accent);
-    padding: 20px;
+}
 
+#text-sample {
+    padding: 20px;
 }
 
  #square {
