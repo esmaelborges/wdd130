@@ -26,3 +26,15 @@ nav{
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
 }
+
+.temple-grid{
+    background-color: #d0d0d0;
+    text-align: var(--aligment-for-text);
+    border: 1px solid #000;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
