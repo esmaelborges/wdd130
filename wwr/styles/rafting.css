@@ -46,6 +46,7 @@ body {
     font-family: var(--heading-fonts);
     font-size: var(--font-sizes-primary);
     color: var(--primary-accent);
+    background-color: var(--secundary-accent-variation);
 }
 h2 {
     font-size: var(--font-sizes-secundary);
