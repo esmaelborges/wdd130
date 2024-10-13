@@ -35,13 +35,17 @@ body {
 
 div h1{
     position: absolute;
+    top: 50px;
+
 }
 
 article {
     position: absolute;
+    top: 150px;
 }
 
 article img {
     float: right;
+    
 }
 
