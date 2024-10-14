@@ -115,7 +115,7 @@ nav {
     box-sizing: border-box;
   }
 
-  /* Class Selectors */
+  
   .box {
 
     margin: var(--font-size-main-size);
