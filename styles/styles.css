@@ -68,6 +68,7 @@ nav {
     height: auto;
     border: 1px solid var(--primary-color);
     padding: 2px;
+    margin: var(--padding-in-2-rem);
     box-shadow: 0 0 30px gray;
     float: right; /* Sent my image to right side of page */
     
