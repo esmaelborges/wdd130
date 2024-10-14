@@ -1,5 +1,5 @@
 /* My first comments for css */
- :root {
+:root {
   --primary-color: steelblue;
   --text-alignment: center;
   --second-color: white;
@@ -8,29 +8,61 @@
   --paraph-padding:10px;
   --font-size-main-size: 1rem;
   --padding-margin-zero: 0;
+  --font-heading-family: "Josefin Sans", sans-serif;
+  --font-body-family: "Poppins", sans-serif;
 
 }
 
-header, footer {
+body{
+  font-family: var(--font-body-family);
 
-  max-width: 840px;
-  margin: 0 auto;
+}
+
+header, .grid, footer, main { 
+
+ max-width: 840px; 
+ margin: 0 auto; 
   
+} 
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+aside{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+main{
+  grid-column: 2/4;
+  grid-row:1/2 ;
 }
 
 nav {
     background-color: var(--primary-color);
     padding: var(--paraph-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   nav a {
     color: var(--second-color);
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
   }
 
   h1 {
     color: var(--primary-color);
+    font-family: var(--font-heading-family);
+    border-bottom: 1px solid var(--primary-color);
+    padding: 1rem;
   }
 
   main img {
@@ -58,7 +90,7 @@ nav {
   }
 
   aside img {
-    width: 200px;
+    width: 287px;
     height: auto;
   }
 
@@ -66,10 +98,10 @@ nav {
   aside h2 {
     position: absolute;
     top: 47px;
-    left: 150px;
+    left: 91px;
   }
 
-  p { padding: var(--padding-margin-zero);}
+  p { padding: var(--paraph-padding);}
 
   footer {
     margin-top: 15px;
