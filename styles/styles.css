@@ -89,7 +89,7 @@ nav {
   }
 
   aside img {
-    width: 287px;
+    width: 200px;
     height: auto;
   }
 
@@ -97,7 +97,7 @@ nav {
   aside h2 {
     position: absolute;
     top: 47px;
-    left: 91px;
+    left: 50px;
   }
 
   p { padding: var(--paraph-padding);}
