@@ -83,7 +83,6 @@ nav {
   }
 
   aside {
-    left: 150px;
     position: relative;
     width: 20rem;
     text-align: var(--text-alignment);
@@ -98,7 +97,7 @@ nav {
   aside h2 {
     position: absolute;
     top: 47px;
-    
+    left: 150px;
   }
 
   p { padding: var(--paraph-padding);}
