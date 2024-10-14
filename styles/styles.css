@@ -10,7 +10,7 @@
   --padding-margin-zero: 0;
   --font-heading-family: "Josefin Sans", sans-serif;
   --font-body-family: "Poppins", sans-serif;
-
+  --padding-in-2-rem: 2rem;
 }
 
 body{
@@ -119,7 +119,7 @@ nav {
   .box {
 
     margin: var(--font-size-main-size);
-    padding: var(--font-size-main-size);
+    padding: var(--padding-in-2-rem);
     border: 1px solid var(--second-color);
     background-color: var(--box-background);
     color: var(--font-color);
