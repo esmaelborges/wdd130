@@ -100,7 +100,6 @@ nav {
     left: 150px;
   }
 
-  p { padding: var(--paraph-padding);}
 
   footer {
     margin-top: 15px;
@@ -117,7 +116,7 @@ nav {
   
   .box {
 
-    margin: var(--font-size-main-size);
+    margin: var(--padding-margin-zero);
     padding: var(--padding-in-2-rem);
     border: 1px solid var(--second-color);
     background-color: var(--box-background);
