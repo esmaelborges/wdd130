@@ -6,7 +6,7 @@
   --font-color:#333;
   --box-background:#eee;
   --paraph-padding:10px;
-  --font-size-main-size: 1rem;
+  --margin-size-in-rem: 1rem;
   --padding-margin-zero: 0;
   --font-heading-family: "Josefin Sans", sans-serif;
   --font-body-family: "Poppins", sans-serif;
@@ -115,8 +115,7 @@ nav {
 
   
   .box {
-
-    margin: var(--padding-margin-zero);
+    margin: var(--margin-size-in-rem);
     padding: var(--padding-in-2-rem);
     border: 1px solid var(--second-color);
     background-color: var(--box-background);
