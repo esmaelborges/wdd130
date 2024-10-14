@@ -11,6 +11,13 @@
 
 }
 
+header, footer {
+
+  max-width: 840px;
+  margin: 0 auto;
+  
+}
+
 nav {
     background-color: var(--primary-color);
     padding: var(--paraph-padding);
