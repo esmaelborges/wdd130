@@ -206,10 +206,11 @@ article {
     position: absolute;
     top: 300px;
     margin: 200px;
-    background-color: var(--primary-accent);
+    background-color: #fff;
     height: auto;
     width: auto;
     color: var(--secundary-accent);
+    border-radius: 10px;
 }
 
 #text-sample {
