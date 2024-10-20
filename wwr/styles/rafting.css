@@ -206,11 +206,12 @@ article {
     position: absolute;
     top: 300px;
     margin: 200px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     height: auto;
     width: auto;
-    color: var(--secundary-accent);
+    color: var(--primary-accent);
     border-radius: 10px;
+    padding: 2rem;
 }
 
 #text-sample {
@@ -221,4 +222,5 @@ article {
     height: auto;
     width: 280px;
     float: right;
+    border-radius: 10px;
 }
