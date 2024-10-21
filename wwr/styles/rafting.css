@@ -45,10 +45,10 @@ nav{
     
 }
 header img {
-    width:150px;
+    width:300px;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: .5rem;
 
 }
 
@@ -80,13 +80,13 @@ body {
   h1 {
     position: absolute;
     top: 300px;
-    margin: auto;
+    margin:0 auto;
     text-align: center;
     width: 100%;
     font-family: var(--heading-fonts);
     font-size: var(--font-sizes-primary);
     color: var(--primary-accent);
-    background-color: var(--secundary-accent-variation);
+    background-color: #0150B990;
 }
 
 .history {
@@ -213,9 +213,8 @@ article {
     border-radius: 10px;
     padding: 2rem;
 }
-
-#text-sample {
-    padding: 20px;
+#welcome_id {
+    font-size: var(--font-sizes-body-text);
 }
 
  #square {
@@ -223,4 +222,5 @@ article {
     width: 280px;
     float: right;
     border-radius: 10px;
+    border: .4rem solid #fff;
 }
