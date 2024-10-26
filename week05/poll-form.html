@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Esmael Borges | HTML Form - User Poll</h1>
+</header>
+
+<main>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <!-- form elements will go here -->
+        <label for="fullname" >Full Name</label>
+        <input type="text" id="fullname" name="fullname">
+        <label for="useremail">Email:</label>
+        <input type="email" id="useremail" name="useremail">
+      </fieldset>
+      <fieldset>
+        <legend>Questions</legend>
+        <!-- form elements will go here -->
+        <label for="browser">What is your favorite browser?</label> 
+        <select name="browser" id="browser">
+            <option value="chrome">Chrome</option>
+            <option value="opera">Opera</option>
+            <option value="edge">Edge</option>
+            <option value="brave">Brave</option>
+            <option value="safari">Safari</option>
+            <option value="firefox">Firefox</option>
+        </select>
+        <label for="pet">Do you have a household pet?</label>
+        <input type="checkbox" id="pet" name="pet">
+        <label for="feedback">List the places you have lived:</label>
+        <textarea name="feedback" id="feedback" rows="4" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, molestiae?"></textarea>
+      </fieldset>
+      <button type="submit">Submit Poll</button>
+    </form>
+</main>
+  
+<footer>
+  <p>©2024 | HTML Form - User Poll Activity | Esmael Borges</p>
+</footer>
+</body>
+</html>
