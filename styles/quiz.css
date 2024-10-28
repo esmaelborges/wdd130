@@ -70,8 +70,7 @@ button{
     margin-top: 1rem;
 }
 button:hover{
-    background-color: lightblue;
-    color: darkblue;
+    background-color: rgb(0, 191, 255);
 }
 
 
