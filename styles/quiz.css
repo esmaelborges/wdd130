@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, footer {
+header {
     margin: 0 auto;
     width: 450px;
     font-family: var(--custom-font-style);
