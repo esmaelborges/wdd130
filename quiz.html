@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>Basic HTML and CSS Quiz </title>
+</head>
+<body>
+    <header>
+            <h1>✅ Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form action="#">
+
+            <div class="fcontainer">
+                <label for="q1"><span class="idented" >1.</span>What does the acronym CSS stand for? </label>
+                <input type="text" name="q1" id="q1">
+            </div>
+
+            <div class="fcontainer">
+                <label for="q2"><span class="idented" >2.</span>How are id and class attributes selected in CSS? </label>
+                <textarea name="q2" id="q2" rows="3"></textarea>
+            </div>
+
+            <div class="fcontainer">
+                <label for="q3"><span class="idented" >3.</span>Which of the following is a valid CSS comment?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled > Choose One...</option>
+                    <option value="css">(/*comment*/)</option>
+                    <option value="python">(#comment)</option>
+                    <option value="test">(?-comment->)</option>
+                </select>
+            </div>
+
+            <div class="fcontainer">
+                <label for="q4"><span class="idented" >4.</span>What is the bottom margin given this declaration?</label>
+                <span class="quiz-q4" >margin:10px 5px 15px;</span>
+                <input type="number" id="q4" name="q4">
+            </div>
+
+            <button type="submit"> Submit Quiz </button>
+            
+        </form>
+    </main>
+    <footer>
+        <p> Basic HTML and CSS Quiz | ESMAEL BORGES | WEEK05 </p>
+    </footer>
+</body>
+</html>
