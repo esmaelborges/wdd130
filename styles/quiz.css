@@ -69,5 +69,8 @@ button{
     text-align: center;
     margin-top: 1rem;
 }
+button:hover{
+    background-color: lightblue;
+}
 
 
