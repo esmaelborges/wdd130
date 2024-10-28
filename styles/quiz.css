@@ -10,11 +10,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+header, footer {
     margin: 0 auto;
-    width: 450px;
+    width: 33rem;
     font-family: var(--custom-font-style);
     padding:1rem 0rem;
+    text-align: center;
 }
 
 form {
@@ -75,7 +76,5 @@ button:hover{
 footer{
     color: navy;
     font-size: .7rem;
-    margin: 0 auto;
-    width: 33rem;
 }
 
