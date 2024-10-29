@@ -215,6 +215,7 @@ article {
 }
 #welcome_id {
     font-size: var(--font-sizes-body-text);
+    color: var(--primary-accent);
 }
 
  #square {
