@@ -28,7 +28,7 @@
         <div class="container-main-contact">
             <div class="contact-hero">
                 <div class="top-heading">
-                    <h2>Contact Us Page</h2>
+                    <h1 id="pg-title" >Contact Us Page</h1>
                     <h3 class="description">We'd Love to Hear from You!!</h3>
                 </div>
                 <div class="contact-info">
@@ -86,6 +86,10 @@
                         <label for="comment-textarea" >Leave your comment below</label><br>
                         <textarea id="comment-textarea" name="comment-id" rows="4"></textarea>
                     </div>
+                    <div class="check-button">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label for="checkbox">I gree with website policies</label>
+                    </div>
                     <button id="comment-button" type="submit">Leave Comment</button> 
                 </form>
             </div>
@@ -111,6 +115,8 @@
                         <label for="reservation">Reservation Question</label><br>
                         <input type="radio" name="general-reservation-website" id="website" value="website-suggestion">
                         <label for="website">Website Suggestion</label><br>
+                        <input type="radio" name="general-reservation-website" id="special-inquiry" value="website-suggestion">
+                        <label for="special-inquiry">Special Inquiry</label><br>
                     </div>
                     
                     <div class="container-inner-form">
@@ -118,8 +124,8 @@
                         <textarea name="message" id="message" rows="5">Tell us what's on your mind</textarea>
                     </div>
                     <div class="container-inner-form radio-item">
-                        <input type="radio" id="news" name="news" value="subscribe-me">
-                        <label for="news">Please subscribe me to the newsletter</label>
+                        <input type="checkbox" id="news" name="news" value="subscribe-me">
+                        <label for="news">Please subscribe me to the monthly newsletter</label>
                     </div>
                     <div class="container-inner-form">
                         <button type="submit">Contact Us</button>
@@ -142,7 +148,7 @@
     <footer>
         <div class="footer-div" >
             <div class="links" >
-                <a href="images/wdd130 contact us - page.png" target="_blank">Wireframe here!</a>
+                <a href="images/contact-us-page.webp" target="_blank">Wireframe here!</a>
             </div>
             <p>copwrite All right reserved White Whater Rafting 2024 Esmael Borges</p>
             <nav class="social-footer">
