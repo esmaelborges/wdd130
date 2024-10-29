@@ -310,7 +310,7 @@ figcaption {
     width: 1200px;
     text-align: center;
 }
-#comment-form, #comment-textarea, #comment-button,label{
+#comment-form, #comment-line, #comment-bt,label{
     width: 100%;
     margin: .5rem 0rem;
 }
